@@ -2,13 +2,6 @@ import Logo from './gazelleLogo.png'
 
 export default function render() {
 
-    function getDOM(type) {
-        switch (type) {
-            case 'header':
-                return document.querySelector('.header');
-        }
-    }
-    
     function renderSections() {
         function renderHeaderContent() {
             const headerContent = document.createElement('div');
@@ -41,6 +34,12 @@ export default function render() {
         
             headerContent.append(logo, navbar);
             header.appendChild(headerContent);
+        }
+
+        function renderPageContent() {
+            const pageContent = document.createElement('div');
+            pageContent.classList.add('pageContainerContent');
+            pageContainer.appendChild(pageContent);
         }
 
         function renderFooterContent() {
@@ -88,6 +87,7 @@ export default function render() {
 
         mainContainer.append(header, pageContainer, footer);
         renderHeaderContent();
+        renderPageContent();
         renderFooterContent();
     }
 
