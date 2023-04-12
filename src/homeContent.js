@@ -1,4 +1,6 @@
-import Map from './map.png'
+import Map from './images/map.png'
+
+
 import { descriptor } from './descriptor';
 
 export default function render() {

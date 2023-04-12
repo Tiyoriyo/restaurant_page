@@ -1,4 +1,4 @@
-import Logo from './gazelleLogo.png'
+import Logo from './images/gazelleLogo.png'
 
 export default function render() {
 
