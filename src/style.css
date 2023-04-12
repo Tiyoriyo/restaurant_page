@@ -38,7 +38,7 @@ body {
     align-items: center;
     gap: 10px;
     flex: 1 1 25%;
-    background-color: rgb(167, 191, 115);
+    background-color: rgb(164, 154, 118);
 }
 
 .headerContent {
@@ -99,7 +99,7 @@ body {
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(167, 191, 115);
+    color: rgb(176, 157, 140);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 10px;
@@ -109,14 +109,14 @@ body {
 .subtitle {
     font-style: italic;
     font-size: 18px;
-    color: rgb(140, 125, 112);
+    color: rgb(140, 112, 112);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .descriptionPara {
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(111, 99, 89);
+    color: rgb(111, 89, 89);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -141,7 +141,7 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(140, 125, 112);
+    background-color: rgb(155, 136, 112);
     flex: 1 1 7%;
 }
 
@@ -166,6 +166,8 @@ body {
 
 .active {
     color: #ffffff;
+    border-left: 1px solid rgb(255, 255, 255, 0.3);
+    border-right: 1px solid rgb(255, 255, 255, 0.3);
 }
 
 .sig {
