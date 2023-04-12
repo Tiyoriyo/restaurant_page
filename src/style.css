@@ -73,10 +73,6 @@ body {
    
 }
 
-.contentLeft {
-    
-}
-
 .contentRight {
     display: flex;
     flex-direction: column;
@@ -90,12 +86,16 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 15px;
+    
 }
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(167, 191, 115);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .subtitle {
@@ -112,9 +112,7 @@ body {
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.contentRightBottom {
-    
-}
+
 
 .description {
     display: flex;
