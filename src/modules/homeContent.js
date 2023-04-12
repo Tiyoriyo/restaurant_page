@@ -1,7 +1,7 @@
-import Map from './images/map.png'
+import Map from '../images/map.png'
 
 
-import { descriptor } from './descriptor';
+import { descriptor } from '../modules/descriptor';
 
 export default function render() {
     const content = document.createElement('div');
