@@ -1,0 +1,5 @@
+export const descriptor = {
+    0: `At Gazelle Diner, we bring the flavors of the African savannah to your table. Our menu features a variety of dishes inspired by traditional African cuisine, with a modern twist that will tantalize your taste buds. Whether you're in the mood for a hearty stew, succulent grilled meat, or a vegetarian dish bursting with flavor, our talented chefs have got you covered.`,
+    1: `But Gazelle Diner is not just about the food. Our cozy and welcoming atmosphere will make you feel right at home, whether you're dining solo or with a group of friends. Our friendly staff will take care of your every need, making sure you have an unforgettable dining experience.`,
+    2: `Located in the heart of the city, our restaurant is easy to find and offers ample parking. So why not come and experience the taste of the savannah at Gazelle Diner? We promise you won't be disappointed!`
+}

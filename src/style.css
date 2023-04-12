@@ -58,7 +58,78 @@ body {
 }
 
 .pageContainer {
+    display: flex;
     flex: 1 1 70%;
+    margin: 50px
+}
+
+
+.pageContent {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+   
+}
+
+.contentLeft {
+    
+}
+
+.contentRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 15px;;
+}
+
+.contentRightTop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(167, 191, 115);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(140, 125, 112);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.descriptionPara {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(111, 99, 89);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contentRightBottom {
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+
+.map {
+    display: block;
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer {

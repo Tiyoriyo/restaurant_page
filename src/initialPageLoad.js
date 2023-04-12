@@ -36,12 +36,6 @@ export default function render() {
             header.appendChild(headerContent);
         }
 
-        function renderPageContent() {
-            const pageContent = document.createElement('div');
-            pageContent.classList.add('pageContainerContent');
-            pageContainer.appendChild(pageContent);
-        }
-
         function renderFooterContent() {
             const footerContent = document.createElement('div');
             footerContent.classList.add('footerContent');
@@ -87,7 +81,6 @@ export default function render() {
 
         mainContainer.append(header, pageContainer, footer);
         renderHeaderContent();
-        renderPageContent();
         renderFooterContent();
     }
 
