@@ -23,15 +23,18 @@ body {
 }
 
 .navbar {
-    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 1 25%;
     background-color: rgb(167, 191, 115);
 }
 
 .pageContainer {
-    flex: auto;
+    flex: 1 1 75%;
 }
 
 .footer {
     background-color: rgb(140, 125, 112);
-    flex: auto;
+    flex: 1 1 15%;
 }
