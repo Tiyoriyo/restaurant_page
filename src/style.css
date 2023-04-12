@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 html {
@@ -22,19 +23,71 @@ body {
     height: 100%;
 }
 
-.navbar {
+.header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    gap: 10px;
     flex: 1 1 25%;
     background-color: rgb(167, 191, 115);
 }
 
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.link {
+    list-style: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
 .pageContainer {
-    flex: 1 1 75%;
+    flex: 1 1 70%;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: rgb(140, 125, 112);
-    flex: 1 1 15%;
+    flex: 1 1 7%;
 }
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.footbar {
+   display: flex;
+   gap: 20px;
+   color: #f2f2f2;
+   text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sig {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 10px;
+    align-self: flex-end;
+    color: #f2f2f2;
+}
+
