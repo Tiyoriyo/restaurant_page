@@ -17,9 +17,30 @@ export default function render() {
     const logo = new Image();
     logo.src = Logo;
 
+    const pageLinks = document.createElement('ul');
+    
+    for (let i = 0; i < 3; i++) {
+        let link = document.createElement('li');
+
+        switch (i) {
+            case 0:
+                link.innerHTML = 'Home';
+                pageLinks.appendChild(link);
+                break;
+
+            case 1:
+                link.innerHTML = 'Menu';
+                pageLinks.appendChild(link);
+                break;
+            case 2:
+                link.innerHTML = 'Contact';
+                pageLinks.appendChild(link);
+                break;       
+        }
+    }
     
 
-    navbar.append(logo);
+    navbar.append(logo, pageLinks);
 
     mainContainer.append(navbar, pageContainer, footer);
 
