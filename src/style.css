@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(242, 242, 242)
+}
+
+#content {
+    height: 100%;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar {
+    flex: auto;
+    background-color: rgb(167, 191, 115);
+}
+
+.pageContainer {
+    flex: auto;
+}
+
+.footer {
+    background-color: rgb(140, 125, 112);
+    flex: auto;
+}
