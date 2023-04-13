@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_initialPageLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/initialPageLoad.js */ \"./src/modules/initialPageLoad.js\");\n/* harmony import */ var _modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/homeContent.js */ \"./src/modules/homeContent.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\nconst mainContainer = document.querySelector('#content');\nmainContainer.appendChild((0,_modules_initialPageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\nconst contentContainer = document.querySelector('.pageContainer');\ncontentContainer.appendChild((0,_modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\nconst navBarLinks = document.querySelectorAll('.link');\nconsole.log(navBarLinks);\n\nfunction unActive() {\n\n    navBarLinks.forEach((link, index) => { navBarLinks[index].className = 'link'});\n\n    footBarLinks.forEach((link, index) => { footBarLinks[index].className = 'footLink'});\n\n}\n\nnavBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click', (e) => {\n    switch(index) {\n        case 0:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            contentContainer.appendChild((0,_modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n            break;\n        case 1:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n        case 2:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n    };\n}));\n\nconst footBarLinks = document.querySelectorAll('.footLink');\n\nfootBarLinks.forEach((link, index) => footBarLinks[index].addEventListener('click', (e) => {\n    switch(index) {\n        case 0: \n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n        case 1:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n        case 2:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n    }\n}));\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_initialPageLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/initialPageLoad.js */ \"./src/modules/initialPageLoad.js\");\n/* harmony import */ var _modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/homeContent.js */ \"./src/modules/homeContent.js\");\n/* harmony import */ var _modules_menuContent_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/menuContent.js */ \"./src/modules/menuContent.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\n\nconst mainContainer = document.querySelector('#content');\nmainContainer.appendChild((0,_modules_initialPageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\nconst contentContainer = document.querySelector('.pageContainer');\ncontentContainer.appendChild((0,_modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\nconst navBarLinks = document.querySelectorAll('.link');\nconsole.log(navBarLinks);\n\nfunction unActive() {\n\n    navBarLinks.forEach((link, index) => { navBarLinks[index].className = 'link'});\n\n    footBarLinks.forEach((link, index) => { footBarLinks[index].className = 'footLink'});\n\n}\n\nnavBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click', (e) => {\n    switch(index) {\n        case 0:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            contentContainer.appendChild((0,_modules_homeContent_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n            break;\n        case 1:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            contentContainer.appendChild((0,_modules_menuContent_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])());\n            break;\n        case 2:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n    };\n}));\n\nconst footBarLinks = document.querySelectorAll('.footLink');\n\nfootBarLinks.forEach((link, index) => footBarLinks[index].addEventListener('click', (e) => {\n    switch(index) {\n        case 0: \n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n        case 1:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n        case 2:\n            unActive();\n            e.target.classList += ' active';\n            contentContainer.innerHTML = '';\n            break;\n    }\n}));\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"descriptor\": () => (/* binding */ descriptor)\n/* harmony export */ });\nconst descriptor = {\n    0: `At Gazelle Diner, we bring the flavors of the African savannah to your table. Our menu features a variety of dishes inspired by traditional African cuisine, with a modern twist that will tantalize your taste buds. Whether you're in the mood for a hearty stew, succulent grilled meat, or a vegetarian dish bursting with flavor, our talented chefs have got you covered.`,\n    1: `But Gazelle Diner is not just about the food. Our cozy and welcoming atmosphere will make you feel right at home, whether you're dining solo or with a group of friends. Our friendly staff will take care of your every need, making sure you have an unforgettable dining experience.`,\n    2: `Located in the heart of the city, our restaurant is easy to find and offers ample parking. So why not come and experience the taste of the savannah at Gazelle Diner? We promise you won't be disappointed!`\n}\n\n//# sourceURL=webpack://restaurant_page/./src/modules/descriptor.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"descriptor\": () => (/* binding */ descriptor)\n/* harmony export */ });\nconst descriptor = {\n    0: `At Gazelle Diner, we bring the flavors of the African savannah to your table. Our menu features a variety of dishes inspired by traditional African cuisine, with a modern twist that will tantalize your taste buds. Whether you're in the mood for a hearty stew, succulent grilled meat, or a vegetarian dish bursting with flavor, our talented chefs have got you covered.`,\n    1: `But Gazelle Diner is not just about the food. Our cozy and welcoming atmosphere will make you feel right at home, whether you're dining solo or with a group of friends. Our friendly staff will take care of your every need, making sure you have an unforgettable dining experience.`,\n    2: `Located in the heart of the city, our restaurant is easy to find and offers ample parking. So why not come and experience the taste of the savannah at Gazelle Diner? We promise you won't be disappointed!`,\n    3: `Our fluffy buttermilk pancakes are a breakfast classic that never goes out of style. Served with warm maple syrup and butter, these pancakes are the perfect way to start your day.`,\n    4: `Our Gazelle Burger is a true carnivore's delight. Made with 100% Angus beef, it's juicy, flavorful, and cooked to perfection. Topped with melted cheddar cheese, crispy bacon, lettuce, tomato, and our signature sauce, this burger is sure to satisfy your hunger.`,\n    5: `Indulge your sweet tooth with our Decadent Chocolate Cake. Made with rich, moist chocolate cake layers and drizzled with a luscious chocolate syrup, this dessert is a chocolate lover's dream come true. Perfect for sharing or savoring all to yourself.`,\n}\n\n//# sourceURL=webpack://restaurant_page/./src/modules/descriptor.js?");
 
 /***/ }),
 
@@ -160,6 +160,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/modules/menuContent.js":
+/*!************************************!*\
+  !*** ./src/modules/menuContent.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var _descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./descriptor */ \"./src/modules/descriptor.js\");\n/* harmony import */ var _images_pancakes_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/pancakes.png */ \"./src/images/pancakes.png\");\n/* harmony import */ var _images_burger_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/burger.png */ \"./src/images/burger.png\");\n/* harmony import */ var _images_desert_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/desert.png */ \"./src/images/desert.png\");\n\n\n\n\n\nfunction render() {\n    const content = document.createElement('div');\n    content.classList.add('content');\n\n    const contentTop = document.createElement('div');\n    contentTop.classList.add('contentTop');\n\n    const title = document.createElement('h1');\n    const subTitle = document.createElement('h2');\n    title.classList.add('menuTitle');\n    subTitle.classList.add('menuSubTitle');\n\n    title.innerHTML = 'Savor the Flavors of Gazelle Diner';\n    subTitle.innerHTML = 'Explore our Delicious Menu Selections';\n\n    contentTop.append(title, subTitle);\n\n    const contentBottom = document.createElement('div');\n    contentBottom.classList.add('contentBottom');\n\n    for (let i = 3; i < 6; i++) {\n        const menuItem = document.createElement('div');\n        menuItem.classList.add('menuItem');\n\n        const itemImg = new Image();\n        itemImg.classList.add('itemImg');\n\n        const description = document.createElement('div');\n        description.classList.add('itemDescriptionContainer');\n\n        const title = document.createElement('h2');\n        const itemDesc = document.createElement('p');\n        title.classList.add('itemTitle');\n        itemDesc.classList.add('itemDescription');\n\n        description.append(title, itemDesc);\n        menuItem.append(itemImg, description);\n\n        switch (i) {\n            case 3:\n                title.innerHTML = 'Fluffy Buttermilk Pancakes';\n                itemDesc.innerHTML = _descriptor__WEBPACK_IMPORTED_MODULE_0__.descriptor[i];\n                itemImg.src = _images_pancakes_png__WEBPACK_IMPORTED_MODULE_1__;\n                break;\n            case 4:\n                title.innerHTML = 'Gazelle Burger';\n                itemDesc.innerHTML = _descriptor__WEBPACK_IMPORTED_MODULE_0__.descriptor[i];\n                itemImg.src = _images_burger_png__WEBPACK_IMPORTED_MODULE_2__;\n                break;\n            case 5: \n                title.innerHTML = 'Decadent Chocolate Cake';\n                itemDesc.innerHTML = _descriptor__WEBPACK_IMPORTED_MODULE_0__.descriptor[i];\n                itemImg.src = _images_desert_png__WEBPACK_IMPORTED_MODULE_3__;\n                break;\n        }\n\n\n        contentBottom.append(menuItem);\n    }\n\n    content.append(contentTop, contentBottom);\n\n    return content;\n}\n\n//# sourceURL=webpack://restaurant_page/./src/modules/menuContent.js?");
+
+/***/ }),
+
 /***/ "./src/images/background.jpg":
 /*!***********************************!*\
   !*** ./src/images/background.jpg ***!
@@ -167,6 +177,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"f28dfb875258317db03a.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/background.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/burger.png":
+/*!*******************************!*\
+  !*** ./src/images/burger.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9b6a4ea2855fb0e81448.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/burger.png?");
+
+/***/ }),
+
+/***/ "./src/images/desert.png":
+/*!*******************************!*\
+  !*** ./src/images/desert.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"af77e8f16065e093716a.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/desert.png?");
 
 /***/ }),
 
@@ -187,6 +217,16 @@ eval("module.exports = __webpack_require__.p + \"f7c32011b0b09b5521be.png\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"483d00df0b7dc959faf9.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/map.png?");
+
+/***/ }),
+
+/***/ "./src/images/pancakes.png":
+/*!*********************************!*\
+  !*** ./src/images/pancakes.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7a7850b6a85117339f40.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/pancakes.png?");
 
 /***/ })
 

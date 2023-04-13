@@ -1,5 +1,8 @@
 export const descriptor = {
     0: `At Gazelle Diner, we bring the flavors of the African savannah to your table. Our menu features a variety of dishes inspired by traditional African cuisine, with a modern twist that will tantalize your taste buds. Whether you're in the mood for a hearty stew, succulent grilled meat, or a vegetarian dish bursting with flavor, our talented chefs have got you covered.`,
     1: `But Gazelle Diner is not just about the food. Our cozy and welcoming atmosphere will make you feel right at home, whether you're dining solo or with a group of friends. Our friendly staff will take care of your every need, making sure you have an unforgettable dining experience.`,
-    2: `Located in the heart of the city, our restaurant is easy to find and offers ample parking. So why not come and experience the taste of the savannah at Gazelle Diner? We promise you won't be disappointed!`
+    2: `Located in the heart of the city, our restaurant is easy to find and offers ample parking. So why not come and experience the taste of the savannah at Gazelle Diner? We promise you won't be disappointed!`,
+    3: `Our fluffy buttermilk pancakes are a breakfast classic that never goes out of style. Served with warm maple syrup and butter, these pancakes are the perfect way to start your day.`,
+    4: `Our Gazelle Burger is a true carnivore's delight. Made with 100% Angus beef, it's juicy, flavorful, and cooked to perfection. Topped with melted cheddar cheese, crispy bacon, lettuce, tomato, and our signature sauce, this burger is sure to satisfy your hunger.`,
+    5: `Indulge your sweet tooth with our Decadent Chocolate Cake. Made with rich, moist chocolate cake layers and drizzled with a luscious chocolate syrup, this dessert is a chocolate lover's dream come true. Perfect for sharing or savoring all to yourself.`,
 }

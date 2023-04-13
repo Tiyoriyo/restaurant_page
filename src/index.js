@@ -1,5 +1,6 @@
 import {default as initialPage} from './modules/initialPageLoad.js';
 import {default as homeContent} from './modules/homeContent.js';
+import {default as menuContent} from './modules/menuContent.js';
 import './style.css';
 
 const mainContainer = document.querySelector('#content');
@@ -30,6 +31,7 @@ navBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click'
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
+            contentContainer.appendChild(menuContent());
             break;
         case 2:
             unActive();
