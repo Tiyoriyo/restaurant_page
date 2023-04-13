@@ -184,6 +184,62 @@ body {
 
 }
 
+.contactContent {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(140, 112, 112);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input {
+    appearance: none;
+    padding: 2px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 2px;
+    color: rgb(140, 112, 112);
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    appearance: none;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: antiquewhite;
+    color: rgb(99, 79, 79);
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.submit:hover {
+    background-color: rgb(233, 218, 197);
+    cursor: pointer;
+}
 
 
 .footer {

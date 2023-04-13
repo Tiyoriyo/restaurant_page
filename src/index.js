@@ -1,12 +1,13 @@
 import {default as initialPage} from './modules/initialPageLoad.js';
 import {default as homeContent} from './modules/homeContent.js';
 import {default as menuContent} from './modules/menuContent.js';
+import {default as contactContent} from './modules/contact.js';
 import './style.css';
 
 const mainContainer = document.querySelector('#content');
 mainContainer.appendChild(initialPage());
 const contentContainer = document.querySelector('.pageContainer');
-contentContainer.appendChild(homeContent());
+contentContainer.appendChild(contactContent());
 
 const navBarLinks = document.querySelectorAll('.link');
 console.log(navBarLinks);
@@ -37,6 +38,7 @@ navBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click'
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
+            contentContainer.appendChild(contact());
             break;
     };
 }));
