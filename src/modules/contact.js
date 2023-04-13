@@ -1,8 +1,8 @@
 export default function render() {
-    const content = document.createElement('div');
-    content.classList.add('contactContent');
+  const content = document.createElement("div");
+  content.classList.add("contactContent");
 
-    content.innerHTML = `<h1 class="title">Contact Us</h1>
+  content.innerHTML = `<h1 class="title">Contact Us</h1>
                         <form class='contactForm'>
                             <label for="fname">First Name</label>
                             <input type="text" id="fname">
@@ -14,8 +14,7 @@ export default function render() {
                             <input type="email" id="email">
                         </form>
                         <button class="submit">Submit</button>
-    `
+    `;
 
-
-    return content;
+  return content;
 }
