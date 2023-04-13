@@ -7,10 +7,9 @@ import './style.css';
 const mainContainer = document.querySelector('#content');
 mainContainer.appendChild(initialPage());
 const contentContainer = document.querySelector('.pageContainer');
-contentContainer.appendChild(contactContent());
+contentContainer.appendChild(homeContent());
 
 const navBarLinks = document.querySelectorAll('.link');
-console.log(navBarLinks);
 
 function unActive() {
 
@@ -19,6 +18,17 @@ function unActive() {
     footBarLinks.forEach((link, index) => { footBarLinks[index].className = 'footLink'});
 
 }
+
+function logoHomeButton() {
+    contentContainer.innerHTML = '';
+    contentContainer.appendChild(homeContent());
+    unActive();
+    navBarLinks[0].classList += ' active';
+}
+
+
+const logo = document.querySelector('.logo');
+logo.addEventListener('click', logoHomeButton);
 
 navBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click', (e) => {
     switch(index) {
@@ -38,7 +48,7 @@ navBarLinks.forEach((link, index) => navBarLinks[index].addEventListener('click'
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
-            contentContainer.appendChild(contact());
+            contentContainer.appendChild(contactContent());
             break;
     };
 }));

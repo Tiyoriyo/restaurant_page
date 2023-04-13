@@ -10,6 +10,7 @@ export default function render() {
             navbar.classList.add('navbar');
             const logo = new Image();
             logo.src = Logo;
+            logo.classList.add('logo');
         
             for (let i = 0; i < 3; i++) {
                 let link = document.createElement('a');
