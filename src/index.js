@@ -1,7 +1,8 @@
 import {default as initialPage} from './modules/initialPageLoad.js';
 import {default as homeContent} from './modules/homeContent.js';
 import {default as menuContent} from './modules/menuContent.js';
-import {default as contactContent} from './modules/contact.js';
+import {default as contactContent} from './modules/contact.js'
+import {default as footerLinkContent} from './modules/footerLinksContent';
 import './style.css';
 
 const mainContainer = document.querySelector('#content');
@@ -61,16 +62,19 @@ footBarLinks.forEach((link, index) => footBarLinks[index].addEventListener('clic
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
+            contentContainer.appendChild(footerLinkContent('about'));
             break;
         case 1:
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
+            contentContainer.appendChild(footerLinkContent('privacy'));
             break;
         case 2:
             unActive();
             e.target.classList += ' active';
             contentContainer.innerHTML = '';
+            contentContainer.appendChild(footerLinkContent('t&c'));
             break;
     }
 }));

@@ -67,6 +67,7 @@ body {
 
 .pageContainer {
     display: flex;
+    justify-content: center;
     flex: 1 1 70%;
     margin: 50px;
 }
@@ -241,6 +242,35 @@ input:focus {
     cursor: pointer;
 }
 
+
+.footerLinkContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+html > body > div#content > div.mainContainer > div.pageContainer > div.footerLinkContent > h1.title {
+    border-bottom: 0;
+}
+
+.paragraphCollection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.piece {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    gap: 5px;
+}
 
 .footer {
     display: flex;
