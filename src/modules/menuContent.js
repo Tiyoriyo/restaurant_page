@@ -5,15 +5,15 @@ import Cake from '../images/desert.png';
 
 export default function render() {
     const content = document.createElement('div');
-    content.classList.add('content');
+    content.classList.add('menuContent');
 
     const contentTop = document.createElement('div');
     contentTop.classList.add('contentTop');
 
     const title = document.createElement('h1');
     const subTitle = document.createElement('h2');
-    title.classList.add('menuTitle');
-    subTitle.classList.add('menuSubTitle');
+    title.classList.add('title', 'noBorder');
+    subTitle.classList.add('subtitle');
 
     title.innerHTML = 'Savor the Flavors of Gazelle Diner';
     subTitle.innerHTML = 'Explore our Delicious Menu Selections';
@@ -35,8 +35,8 @@ export default function render() {
 
         const title = document.createElement('h2');
         const itemDesc = document.createElement('p');
-        title.classList.add('itemTitle');
-        itemDesc.classList.add('itemDescription');
+        title.classList.add('subtitle');
+        itemDesc.classList.add('descriptionPara');
 
         description.append(title, itemDesc);
         menuItem.append(itemImg, description);
